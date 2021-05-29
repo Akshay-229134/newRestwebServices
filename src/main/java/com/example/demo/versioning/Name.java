@@ -3,9 +3,11 @@ package com.example.demo.versioning;
 public class Name {
 	private String firstname;
 	private String lastname;
+	private int no;
 	public Name() {
 		
 	}
+
 	public Name(String firstname, String lastname) {
 		super();
 		this.firstname = firstname;
