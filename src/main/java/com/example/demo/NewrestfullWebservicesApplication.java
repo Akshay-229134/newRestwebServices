@@ -18,7 +18,9 @@ public class NewrestfullWebservicesApplication {
 	}
 	@SuppressWarnings("deprecation")
 	
-	//for internationallization
+	//for internationallization and so
+	
+	
 	public SessionLocaleResolver localeResolver(){
 		SessionLocaleResolver localeResolver=new SessionLocaleResolver();
 		localeResolver.setDefaultLocale(Locale.US);
@@ -28,6 +30,7 @@ public class NewrestfullWebservicesApplication {
 	
 	@Bean
 	public ResourceBundleMessageSource messageSource(){
+		
 		ResourceBundleMessageSource messageSource=new ResourceBundleMessageSource();
 		messageSource.setBasenames("messages");
 		return messageSource;
