@@ -19,9 +19,7 @@ public class User {
 	private String name;	
 	//@Past
 	private Date birthdate;
-	
-	
-	
+
 	//As 1 user can have multiple posts,
 	//and 1 post can have 1user only
 	@OneToMany(mappedBy="user")
