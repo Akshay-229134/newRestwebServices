@@ -22,6 +22,8 @@ public class User {
 
 	//As 1 user can have multiple posts,
 	//and 1 post can have 1user only
+	
+	
 	@OneToMany(mappedBy="user")
 	private List<Post> posts;
 	
